@@ -1,0 +1,80 @@
+    /* Default table styles */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    /* Responsive table styles */
+    @media (max-width: 768px) {
+
+        /* Stack the table rows */
+        table,
+        thead,
+        tbody,
+        th,
+        td,
+        tr {
+            display: block;
+        }
+
+        /* Hide table headers (but retain the content for accessibility) */
+        thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+        /* Add some space between rows */
+        tr {
+            margin-bottom: 15px;
+        }
+
+        /* Display the data cells as blocks */
+        td {
+            border: none;
+            border-bottom: 1px solid #dddddd;
+            position: relative;
+            padding-left: 50%;
+        }
+
+        /* Add labels to each data cell */
+        td:before {
+            position: absolute;
+            left: 6px;
+            width: 45%;
+            padding-right: 10px;
+            white-space: nowrap;
+        }
+
+        /* Label each data cell based on column heading */
+        td:nth-of-type(1):before {
+            content: "StudentId: ";
+        }
+
+        td:nth-of-type(2):before {
+            content: "FirstName: ";
+        }
+
+        td:nth-of-type(3):before {
+            content: "MiddleName: ";
+        }
+
+        td:nth-of-type(4):before {
+            content: "LastName: ";
+        }
+
+        td:nth-of-type(5):before {
+            content: "BirthDate: ";
+        }
+
+        td:nth-of-type(6):before {
+            content: "emailAddress: ";
+        }
+    }

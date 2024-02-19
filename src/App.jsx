@@ -1,6 +1,5 @@
 import './App.css'
-import BasicFetch from './BasicFetch/BasicFetch'
-
+import BasicStateManagement from './BasicStateManagement/BasicStateManagement'
 
 function App() {
 
@@ -28,8 +27,8 @@ function App() {
       <hr />
       <UpdateArrayObject></UpdateArrayObject>
       <hr /> */}
-      <BasicFetch />
-
+      {/* <BasicFetch /> */}
+      <BasicStateManagement></BasicStateManagement>
     </>
   )
 }
