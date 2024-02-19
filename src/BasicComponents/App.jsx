@@ -2,9 +2,8 @@ import Button from './Button'
 import Card from './Card'
 import "./index.css"
 
-function BasicComponent() {
+export default function BasicComponent() {
   return (
-    // this is called fragment <></>
     <>
       <Card />
       <br></br>
@@ -12,5 +11,3 @@ function BasicComponent() {
     </>
   )
 }
-
-export default BasicComponent

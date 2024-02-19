@@ -4,7 +4,7 @@ import { useState } from "react"
 
 function CounterComponent() {
 
-    const [counter,setCounter] = useState(0)
+    const [counter, setCounter] = useState(0)
 
     return (
         <>

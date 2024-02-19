@@ -11,7 +11,7 @@ function BasicClickEvent() {
 
     return (<>
         <button onClick={handleClick}>Click Me</button>
-        
+
         <button onClick={() => handleClick2("jCode")}>Click Me</button>
 
         <button onClick={(e) => handleClickEvent(e)}>Click Me</button>

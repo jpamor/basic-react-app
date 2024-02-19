@@ -1,16 +1,5 @@
 import './App.css'
-import Food from './BasicApp/Food'
-import BasicComponent from './BasicComponents/App'
-import BasicRenderList from './BasicRenderList/BasicRenderList'
-import BasicConditionalRendoring from './BasicConditionalRendering/BasicConditionalRendering'
-import BasicUseState from './BasicUseState/BasicUseState'
-import BasicClickEvent from './BasicClickEvent/BasicClickEvent'
-import BasicUpdateFunction from './BasicUpdateFunction/BasicUpdateFunction'
-import BasicOnChange from './BasicClickEvent/BasicOnChange/BasicOnChange'
-import UpdateArrayObject from './BasicUpdateFunction/BasicUpdateArray/UpdateArrayObject'
-import UpdateArray from './BasicUpdateFunction/BasicUpdateArray/UpdateArrays'
-import UpdateObject from './BasicUpdateFunction/BasicUpdateObject/UpdateObject'
-
+import BasicFetch from './BasicFetch/BasicFetch'
 
 
 function App() {
@@ -39,7 +28,7 @@ function App() {
       <hr />
       <UpdateArrayObject></UpdateArrayObject>
       <hr /> */}
-
+      <BasicFetch />
 
     </>
   )
