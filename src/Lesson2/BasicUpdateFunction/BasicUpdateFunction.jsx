@@ -1,12 +1,12 @@
 
-// updater function = a function passed as argument to setState() usually 
+// updater function = a function passed as argument to setState() usually
 //                     ex. setYear(arrow function)
 //                     Allow for safe updates based on the previous sate
 //                     Used with multiple state updates and asynchronous functions
 //                     Good practice to use updater functions.
 
 
-import React, { useState } from "react"
+import { useState } from "react"
 
 
 export default function BasicUpdateFunction() {
@@ -14,15 +14,15 @@ export default function BasicUpdateFunction() {
 
 
     function increment() {
-        setCount(c => c + 1);        
+        setCount(c => c + 1);
     }
 
     function decrement() {
-        setCount(c => c - 1);        
+        setCount(c => c - 1);
     }
 
     function reset() {
-        setCount(c => c = 0);
+        setCount(0);
     }
 
 

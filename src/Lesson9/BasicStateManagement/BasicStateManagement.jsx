@@ -1,3 +1,5 @@
+import "./Components/Styles/index.css"
+import "./Components/Styles/App.css"
 import Column from "./Components/Column";
 
 
@@ -10,4 +12,4 @@ export default function BasicStateManagement() {
             <Column state="DONE"></Column>
         </div>
     )
-}
+} 
