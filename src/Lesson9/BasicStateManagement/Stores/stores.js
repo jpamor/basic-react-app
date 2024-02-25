@@ -11,7 +11,7 @@ const store = (set) => ({
     addTask: (title, state) =>
         set((store) => ({
             tasks: [...store.tasks, { title, state }]
-        }), false, "addTask"),
+        }), false, "addTask"), //for debugging purpose
 
     deleteTask: (title) =>
         set((store) => ({
